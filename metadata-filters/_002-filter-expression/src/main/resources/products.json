@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "product_name": "Smartphone",
+    "description": "Latest model smartphone with advanced camera features and a powerful processor.",
+    "brand": "Apple",
+    "price": 1200.00,
+    "year": 2024,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 2,
+    "product_name": "Smartphone",
+    "description": "Flagship smartphone with fast charging and a high refresh rate display.",
+    "brand": "Samsung",
+    "price": 600.00,
+    "year": 2024,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 3,
+    "product_name": "Smartphone",
+    "description": "5G-enabled smartphone with a large screen and high-resolution camera.",
+    "brand": "OnePlus",
+    "price": 300.00,
+    "year": 2024,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 4,
+    "product_name": "Laptop",
+    "description": "Lightweight laptop with a 15-inch display, fast performance, and extended battery.",
+    "brand": "Dell",
+    "price": 1400.00,
+    "year": 2025,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 5,
+    "product_name": "Tablet",
+    "description": "Professional tablet with stylus support and stunning Retina display.",
+    "brand": "Apple",
+    "price": 250.00,
+    "year": 2024,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 6,
+    "product_name": "Smartwatch",
+    "description": "Advanced fitness tracking smartwatch with ECG monitoring and GPS.",
+    "brand": "Garmin",
+    "price": 599.99,
+    "year": 2025,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 7,
+    "product_name": "Laptop",
+    "description": "Premium ultrabook with touchscreen and dedicated graphics card.",
+    "brand": "HP",
+    "price": 1300.00,
+    "year": 2024,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 8,
+    "product_name": "Headphones",
+    "description": "Noise-cancelling wireless headphones with premium audio quality.",
+    "brand": "Sony",
+    "price": 30.00,
+    "year": 2024,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 9,
+    "product_name": "Gaming Console",
+    "description": "Next-gen gaming console with 4K graphics and ray tracing support.",
+    "brand": "Microsoft",
+    "price": 3000.00,
+    "year": 2024,
+    "country": "USA",
+    "isAvailable": true
+  },
+  {
+    "id": 10,
+    "product_name": "Smart TV",
+    "description": "65-inch 4K OLED TV with smart features and gaming mode.",
+    "brand": "LG",
+    "price": 960.00,
+    "year": 2024,
+    "country": "USA",
+    "isAvailable": true
+  }
+]
