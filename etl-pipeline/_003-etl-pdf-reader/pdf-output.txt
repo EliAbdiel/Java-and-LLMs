@@ -1,0 +1,335 @@
+page_number: 1
+section_summary: The provided section discusses various frequently asked questions (FAQs) related to a lab environment in Network Security v1.0, specifically using an Oracle VirtualBox virtual machine for the course. Here are the key topics covered:
+
+1. **Oracle VirtualBox**:
+   - Definition and explanation.
+   - Availability on different platforms including Windows, Linux, Mac OS X, and Solaris x86 computers.
+   - Licensing details: Free software under GPL version 2 with a Personal Use and Evaluation license available for non-commercial use.
+   - Where to download Oracle VirtualBox from.
+
+2. **Virtual Machine Issues**:
+   - Users experiencing problems starting or using the virtual machines in Oracle VirtualBox are provided guidance on what actions they can take, including checking if their version of Oracle VirtualBox is outdated (mentioning a minimum version of 5.2).
+
+3. **Specific VM Details and Troubleshooting**:
+   - The section mentions details about the Security Workstation VM.
+   - Solutions for common issues such as login prompts not appearing or black screens during VM start-up.
+   - Advice on understanding memory requirements and troubleshooting mouse/keyboard issues outside of the VM.
+
+4. **Course Management**:
+   - Tips for managing time if a lab session is too long to finish in one class period.
+   - Instructions on how to remove virtual machines when done with the course.
+   - How to replace files that have been accidentally deleted within the virtual environment.
+   - Advice for resolving issues after making changes to VM configurations and troubleshooting black screens.
+
+5. **Miscellaneous Tips**:
+   - Explanation of a security warning message ("WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!") when trying to SSH into a router.
+   
+6. **General Troubleshooting**:
+   - Guidance on how to handle long commands in the terminal by breaking them down or using shortcuts.
+
+This section aims to provide solutions and advice for common issues encountered while using Oracle VirtualBox within the Network Security v1.0 course environment.
+next_section_summary: The provided text discusses several key points related to network security virtual machines (VMs). Here's a summary:
+
+- **Software Update Requirement**: There is an update requirement for version number. The users are advised to upgrade their software versions, specifically to 5.2.4 or higher, in order for the VMs to operate correctly.
+  
+- **Security Workstation VM**: This section introduces the Security Workstation virtual machine which is a custom-built virtual machine based on Arch Linux. It's mentioned that this VM is used in certain labs of the course.
+
+- **Source Attribution**: The document acknowledges Cisco and its affiliates as the creators or rights holders for any content related to security workstations, including those used in the lab course. The text also provides a URL (www.netacad.com) which appears to be linked to Cisco's public page containing more information about it.
+
+In summary, this section primarily focuses on the need to update software versions and introduces users to a specific type of virtual machine used for security courses.
+file_name: Network_Security_v1_0_VM_Lab.pdf
+
+Network              Security             v1.0                                                                                                                                                           
+             Virtual     Machine        Lab    Environment           - Frequently         Asked       Questions                                                                                                       
+
+             Last  Updated    25 March   2021                                                                                                                                                                         
+
+             What   is Oracle  VirtualBox?    Where   do  I  get  it?  and  how  much does  it  cost?                                                                                                                 
+
+             I  can’t  get  the  virtual  machines  to  work  properly  in  Oracle  VirtualBox. What  can   I  do?                                                                                                    
+
+             What   is Security  Workstation    virtual machine?                                                                                                                                                      
+
+             After  importing   and  starting  the VM,  there  is no  login prompt,   only  a black  screen.   What  can  I do  now?                                                                                  
+
+             Why   do  I  need all  that  RAM memory?                                                                                                                                                                 
+
+             Why   are my   mouse   and   keyboard   not  working   outside   of the VM?                                                                                                                              
+
+             The  labs  are too  long, and   we  can't finish it in one  class  period.  What  should   I do?                                                                                                         
+
+             How   do  I  remove  the virtual machines     when   I  am  done with  the course?                                                                                                                       
+
+             How   do  I  replace a file  that  was  accidentally deleted?                                                                                                                                            
+
+             I  made  a change   in a VM,  and  it is  not  working properly   anymore.                                                                                                                               
+
+             The  VM   screen  is black,  what  do  I  do  now?                                                                                                                                                       
+
+             I  copied the  command     from  the  PDF  and   pasted  it into the terminal.  Why   is it  not  working?                                                                                               
+
+             The  command      is  really  long.  What  can  I do  to make  it  easier?                                                                                                                               
+
+             I  have mistyped   a  long command.      Do  I  have  to  retype  again  to  fix  it?                                                                                                                    
+
+             I  got  this  message when    I  tried  to SSH  into  a router:  WARNING:   REMOTE     HOST    IDENTIFICATION      HAS                                                                                   
+
+             CHANGED!                                                                                                                                                                                                 
+
+             What   is Oracle  VirtualBox?    Where   do  I  get  it?  and  how  much does  it  cost?                                                                                                                 
+
+                  Oracle  VirtualBox  is  a free,  open  source,  cross-platform  virtualization  software  used  in this  course.  It  can  be                                                                       
+                  installed  on  Windows, Linux,  Mac  OS  X, and  Solaris  x86 computers.   The   VirtualBox  base  software  is  licensed                                                                           
+                  under  the GNU   General   Public License  version  2 and  the extension   pack  is  available  under  the  Personal  Use                                                                           
+                  and Evaluation   license. If  you  qualify  under  the  terms  of this license,  VirtualBox  is  available  at  no cost.                                                                            
+                  VirtualBox  can be  downloaded    from  Oracle:                                                                                                                                                     
+                  http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html                                                                                                                    
+
+                  Back  to Top                                                                                                                                                                                        
+
+             I  can’t  get  the  virtual  machines  to  work  properly  in  Oracle  VirtualBox. What   can  I  do?                                                                                                    
+
+                  If  you  currently  have  a version  of Oracle  VirtualBox  that  is  older than the  5.2.prev_section_summary: The provided section discusses various frequently asked questions (FAQs) related to a lab environment in Network Security v1.0, specifically using an Oracle VirtualBox virtual machine for the course. Here are the key topics covered:
+
+1. **Oracle VirtualBox**:
+   - Definition and explanation.
+   - Availability on different platforms including Windows, Linux, Mac OS X, and Solaris x86 computers.
+   - Licensing details: Free software under GPL version 2 with a Personal Use and Evaluation license available for non-commercial use.
+   - Where to download Oracle VirtualBox from.
+
+2. **Virtual Machine Issues**:
+   - Users experiencing problems starting or using the virtual machines in Oracle VirtualBox are provided guidance on what actions they can take, including checking if their version of Oracle VirtualBox is outdated (mentioning a minimum version of 5.2).
+
+3. **Specific VM Details and Troubleshooting**:
+   - The section mentions details about the Security Workstation VM.
+   - Solutions for common issues such as login prompts not appearing or black screens during VM start-up.
+   - Advice on understanding memory requirements and troubleshooting mouse/keyboard issues outside of the VM.
+
+4. **Course Management**:
+   - Tips for managing time if a lab session is too long to finish in one class period.
+   - Instructions on how to remove virtual machines when done with the course.
+   - How to replace files that have been accidentally deleted within the virtual environment.
+   - Advice for resolving issues after making changes to VM configurations and troubleshooting black screens.
+
+5. **Miscellaneous Tips**:
+   - Explanation of a security warning message ("WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!") when trying to SSH into a router.
+   
+6. **General Troubleshooting**:
+   - Guidance on how to handle long commands in the terminal by breaking them down or using shortcuts.
+
+This section aims to provide solutions and advice for common issues encountered while using Oracle VirtualBox within the Network Security v1.0 course environment.
+page_number: 1
+section_summary: The provided text discusses several key points related to network security virtual machines (VMs). Here's a summary:
+
+- **Software Update Requirement**: There is an update requirement for version number. The users are advised to upgrade their software versions, specifically to 5.2.4 or higher, in order for the VMs to operate correctly.
+  
+- **Security Workstation VM**: This section introduces the Security Workstation virtual machine which is a custom-built virtual machine based on Arch Linux. It's mentioned that this VM is used in certain labs of the course.
+
+- **Source Attribution**: The document acknowledges Cisco and its affiliates as the creators or rights holders for any content related to security workstations, including those used in the lab course. The text also provides a URL (www.netacad.com) which appears to be linked to Cisco's public page containing more information about it.
+
+In summary, this section primarily focuses on the need to update software versions and introduces users to a specific type of virtual machine used for security courses.
+next_section_summary: The section covers several important aspects for managing VMs in a network security lab, particularly focusing on troubleshooting common issues and ensuring optimal performance:
+
+1. **Problem Resolution for No Login Prompt**: If a black screen appears after importing and starting a virtual machine (VM), users can address this by increasing the amount of video memory or changing the graphic controller settings within the VM's settings.
+
+2. **RAM Memory Requirements**: There is an explanation about the minimum requirement of 1 GB RAM needed to run the Security Workstation VM in the course, and how increasing this memory improves VM performance.
+
+3. **Keyboard and Mouse Issues Outside VM**: Users are advised that if their keyboard or mouse does not work outside of the virtual machine, they can use the VirtualBox host key (the CTRL key on the right side) to control functions inside the VM from outside.
+
+4. **Saving State for Future Use**: The section outlines how users can save the state of a running VM so they can pick up where they left off at a later time, and resume their lab work without having to start from scratch every session.
+
+5. **Removing Virtual Machines**: Instructions are provided on how to properly remove virtual machines, which includes shutting down the VM first before removing it by deleting all its files.
+
+6. **Recovering Deleted Files**: Users also learn that if they accidentally delete a file within a VM, they can use similar steps as for saving the state (shutting down and then removing/redeleting) to recover their data without losing work in progress.
+
+The document also mentions an external copyright notice at the end.
+file_name: Network_Security_v1_0_VM_Lab.pdf
+
+4 version,  you  need to  update  to                                                                      
+                  the 5.2.4 version  or higher for the virtual  machines  to work  properly.                                                                                                                          
+
+                  Back  to Top                                                                                                                                                                                        
+
+             What   is Security  Workstation    virtual machine?                                                                                                                                                      
+
+                  The Security  Workstation   is a custom-built  VM  based   on Arch  Linux. This  VM  is used  in a few of the labs  in                                                                              
+                  this  course.                                                                                                                                                                                       
+
+                  Back  to Top                                                                                                                                                                                        
+
+             © 2021 -  2021  Cisco  and/or  its  affiliates. All  rights  reserved. Cisco  Public  Page  1  of 3           www.netacad.comprev_section_summary: The provided text discusses several key points related to network security virtual machines (VMs). Here's a summary:
+
+- **Software Update Requirement**: There is an update requirement for version number. The users are advised to upgrade their software versions, specifically to 5.2.4 or higher, in order for the VMs to operate correctly.
+  
+- **Security Workstation VM**: This section introduces the Security Workstation virtual machine which is a custom-built virtual machine based on Arch Linux. It's mentioned that this VM is used in certain labs of the course.
+
+- **Source Attribution**: The document acknowledges Cisco and its affiliates as the creators or rights holders for any content related to security workstations, including those used in the lab course. The text also provides a URL (www.netacad.com) which appears to be linked to Cisco's public page containing more information about it.
+
+In summary, this section primarily focuses on the need to update software versions and introduces users to a specific type of virtual machine used for security courses.
+page_number: 2
+section_summary: The section covers several important aspects for managing VMs in a network security lab, particularly focusing on troubleshooting common issues and ensuring optimal performance:
+
+1. **Problem Resolution for No Login Prompt**: If a black screen appears after importing and starting a virtual machine (VM), users can address this by increasing the amount of video memory or changing the graphic controller settings within the VM's settings.
+
+2. **RAM Memory Requirements**: There is an explanation about the minimum requirement of 1 GB RAM needed to run the Security Workstation VM in the course, and how increasing this memory improves VM performance.
+
+3. **Keyboard and Mouse Issues Outside VM**: Users are advised that if their keyboard or mouse does not work outside of the virtual machine, they can use the VirtualBox host key (the CTRL key on the right side) to control functions inside the VM from outside.
+
+4. **Saving State for Future Use**: The section outlines how users can save the state of a running VM so they can pick up where they left off at a later time, and resume their lab work without having to start from scratch every session.
+
+5. **Removing Virtual Machines**: Instructions are provided on how to properly remove virtual machines, which includes shutting down the VM first before removing it by deleting all its files.
+
+6. **Recovering Deleted Files**: Users also learn that if they accidentally delete a file within a VM, they can use similar steps as for saving the state (shutting down and then removing/redeleting) to recover their data without losing work in progress.
+
+The document also mentions an external copyright notice at the end.
+next_section_summary: The provided text outlines a set of troubleshooting tips and solutions for network security issues in a virtual machine (VM) environment, specifically using Linux as the operating system. The main points covered are:
+
+1. **VM Re-importation**: How to re-import a VM if changes made within it are not working properly.
+2. **Black Screen Issue**: What to do when the VM screen goes black after being idle for some time.
+3. **Command Format Issues**: Solutions for issues arising from copy-pasting commands from lab documents that may not be compatible with the command line interface.
+4. **Long Commands and Autocompletion**: How Linux's TAB key autocompletion feature can help manage long commands by suggesting possible completions based on input.
+5. **Editing Mistyped Commands**: Methods to edit a previously mistyped command using the up arrow to access previous commands in the terminal.
+6. **SSH Host Identification Change Warning**: A solution for the SSH warning message indicating that the remote host's identification has changed, involving editing the known_hosts file.
+
+Throughout these points, Linux-specific features such as autocompletion and the use of the `ssh-keygen` command are highlighted to help users solve common problems effectively.
+file_name: Network_Security_v1_0_VM_Lab.pdf
+
+Network    Security  v1.0                                                                                                                                                                                
+
+             After  importing   and  starting  the VM,  there  is no  login prompt,   only  a black  screen.   What  can  I do  now?                                                                                  
+
+                  Shut down   the VM.  Right-click  the imported  VM   and select  Settings  > click Display.  You  can  increase  the                                                                                
+                  amount   of  Video  Memory  and/or  change   the Graphic  Controller  and  restart the VM.                                                                                                          
+
+                  Back  to Top                                                                                                                                                                                        
+
+             Why   do  I  need all  that  RAM memory?                                                                                                                                                                 
+
+                  In  this  course,  there  is only  one virtual  machine.  The minimum  RAM memory    requirement   to run Security                                                                                  
+                  Workstation  virtual machine   is  1 GB.  Increasing the amount   of RAM   from  the minimum    requirement   can                                                                                   
+                  enhance   the performance    of  the  VM.                                                                                                                                                           
+
+                  Back  to Top                                                                                                                                                                                        
+
+             Why   are my   mouse   and   keyboard   not  working   outside   of the VM?                                                                                                                              
+
+                  If  your  keyboard  or  mouse  does  not  function  outside  of the  VM,  press  the CTRL  key  that  is  on  the  right  side  of                                                                  
+                  the keyboard.  This  is  called  the  VirtualBox  host  key.  The host  key is  shown  on the lower  right-hand  corner  of                                                                         
+                  the VM  window.   Other  host operating  systems   may   use another  key  as the  host key.                                                                                                        
+
+                  Back  to Top                                                                                                                                                                                        
+
+             The  labs  are too  long,  and  we  can't finish it in one  class  period.  What   should  I do?                                                                                                         
+
+                  Become   familiar with the labs  before class  if  possible.  The  state  of the VM  can  be saved  so  that  you can                                                                               
+                  continue  the labs at a later time. To save  the VM   state, click  the  Save  the  machine state  radio button  and                                                                                
+                  click  OK  when closing  the VM.  The  next time  you start the virtual machine,  you  will  be  able  to resume  working                                                                           
+                  in  the  operating  system  from  the  saved  state.                                                                                                                                                
+
+                  When   you are  ready  to  resume the  labs, select the desired  VM  and  click Start. The  VM  will  start  in the  same                                                                           
+                  state as when   it  was  saved.                                                                                                                                                                     
+
+                  Back  to Top                                                                                                                                                                                        
+
+             How   do  I  remove  the virtual machines     when   I  am  done with  the course?                                                                                                                       
+
+                      1)   Shut down   the VM                                                                                                                                                                         
+
+                      2)   Right-click the VM  > Remove,     select Delete  all  files                                                                                                                                
+
+                  Back  to Top                                                                                                                                                                                        
+
+             How   do  I  replace a file  that  was  accidentally deleted?                                                                                                                                            
+
+                      1)   Shut down   the VM                                                                                                                                                                         
+
+                      2)   Right-click the VM  > Remove,     select Delete  all  files                                                                                                                                
+
+             © 2021 -  2021  Cisco  and/or  its  affiliates. All  rights  reserved. Cisco  Public  Page  2  of 3           www.netacad.comprev_section_summary: The section covers several important aspects for managing VMs in a network security lab, particularly focusing on troubleshooting common issues and ensuring optimal performance:
+
+1. **Problem Resolution for No Login Prompt**: If a black screen appears after importing and starting a virtual machine (VM), users can address this by increasing the amount of video memory or changing the graphic controller settings within the VM's settings.
+
+2. **RAM Memory Requirements**: There is an explanation about the minimum requirement of 1 GB RAM needed to run the Security Workstation VM in the course, and how increasing this memory improves VM performance.
+
+3. **Keyboard and Mouse Issues Outside VM**: Users are advised that if their keyboard or mouse does not work outside of the virtual machine, they can use the VirtualBox host key (the CTRL key on the right side) to control functions inside the VM from outside.
+
+4. **Saving State for Future Use**: The section outlines how users can save the state of a running VM so they can pick up where they left off at a later time, and resume their lab work without having to start from scratch every session.
+
+5. **Removing Virtual Machines**: Instructions are provided on how to properly remove virtual machines, which includes shutting down the VM first before removing it by deleting all its files.
+
+6. **Recovering Deleted Files**: Users also learn that if they accidentally delete a file within a VM, they can use similar steps as for saving the state (shutting down and then removing/redeleting) to recover their data without losing work in progress.
+
+The document also mentions an external copyright notice at the end.
+page_number: 3
+section_summary: The provided text outlines a set of troubleshooting tips and solutions for network security issues in a virtual machine (VM) environment, specifically using Linux as the operating system. The main points covered are:
+
+1. **VM Re-importation**: How to re-import a VM if changes made within it are not working properly.
+2. **Black Screen Issue**: What to do when the VM screen goes black after being idle for some time.
+3. **Command Format Issues**: Solutions for issues arising from copy-pasting commands from lab documents that may not be compatible with the command line interface.
+4. **Long Commands and Autocompletion**: How Linux's TAB key autocompletion feature can help manage long commands by suggesting possible completions based on input.
+5. **Editing Mistyped Commands**: Methods to edit a previously mistyped command using the up arrow to access previous commands in the terminal.
+6. **SSH Host Identification Change Warning**: A solution for the SSH warning message indicating that the remote host's identification has changed, involving editing the known_hosts file.
+
+Throughout these points, Linux-specific features such as autocompletion and the use of the `ssh-keygen` command are highlighted to help users solve common problems effectively.
+file_name: Network_Security_v1_0_VM_Lab.pdf
+
+Network    Security  v1.0                                                                                                                                                                                
+
+                      3)   Re-import  the VM:  File >  Import  Appliance                                                                                                                                              
+
+                  Back  to Top                                                                                                                                                                                        
+
+             I  made  a change   in a VM,  and  it is  not  working properly   anymore.                                                                                                                               
+
+                      1)   Shut down   the VM                                                                                                                                                                         
+
+                      2)   Right-click the VM  > Remove,     select Delete  all  files                                                                                                                                
+
+                      3)   Re-import  the VM:  File >  Import  Appliance                                                                                                                                              
+
+                  Back  to Top                                                                                                                                                                                        
+
+             The  VM   screen  is black,  what  do  I  do  now?                                                                                                                                                       
+
+                  When   the VM  has  been  idle for  some time, the  screen  may  be  black. Click anywhere   within  the VM  to display                                                                             
+                  the login screen.                                                                                                                                                                                   
+
+                  Back  to Top                                                                                                                                                                                        
+
+             I  copied the  command     from  the  PDF  and   pasted  it into the terminal.  Why   is it  not  working?                                                                                               
+
+                  When   copying  and  pasting  commands     from lab documents,    there is a possibility  that  the  formatting  and                                                                                
+                  characters  from  the document   may   not be compatible   with the  command    line.  The solution is  to  delete  and                                                                             
+                  retype the offending  characters.  The  command     should  then  run.                                                                                                                              
+
+                  Back  to Top                                                                                                                                                                                        
+
+             The  command      is  really  long.  What  can  I do  to make  it  easier?                                                                                                                               
+
+                  Linux is designed  for the command     line interface.  Several features are  included  to  facilitate  entering                                                                                    
+                  commands.    One   of  those  features  is TAB  key  autocompletion. When   typing a command     or a directory path,                                                                               
+                  use the TAB   key  to  complete it.  Linux  will  display  the possible  completions  if  the  typed portion  is  not unique.                                                                       
+                  Linux will  autocomplete  the command     or path as  soon  as the typed  portion is unique.                                                                                                        
+
+                  Back  to Top                                                                                                                                                                                        
+
+             I  have mistyped   a  long command.      Do  I  have  to  retype  again  to  fix  it?                                                                                                                    
+
+                  You  can use  the up  arrow  to  access the commands     that were  executed   earlier  in  the  same  terminal  window.                                                                            
+                  The command     can  then be  edited.                                                                                                                                                               
+
+                  Back  to Top                                                                                                                                                                                        
+
+             I  got  this  message when    I  tried  to SSH  into  a router:  WARNING:   REMOTE     HOST    IDENTIFICATION       HAS                                                                                  
+             CHANGED!                                                                                                                                                                                                 
+
+                  You  can use  the following  CLI command     to remove   a specific user and  host  from the known_hosts     file.  The                                                                             
+                  user sec_admin     and  host 192.168.1.1   is  used  as  an  example:                                                                                                                               
+
+                      ssh-keygen       -f  "/home/sec_admin/.ssh/known_hosts"                   -R  192.168.1.1                                                                                                       
+
+                  Back  to Top                                                                                                                                                                                        
+
+             End  of  document                                                                                                                                                                                        
+
+             © 2021 -  2021  Cisco  and/or  its  affiliates. All  rights  reserved. Cisco  Public  Page  3  of 3           www.netacad.
