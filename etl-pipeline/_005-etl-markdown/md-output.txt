@@ -1,0 +1,31 @@
+excerpt_keywords: Java,application,sample,programming,languages
+filename: code.md
+
+This is a Java sample application:excerpt_keywords: SpringBootApplication, SpringApplication, DemoApplication, SpringBoot, Application启动类
+filename: code.md
+category: code_block
+lang: java
+
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+    }
+}category: code_inline
+excerpt_keywords: Markdown, Inline, Code, Formatting, Sentence
+filename: code.md
+
+Markdown also provides the possibility to use inline code formatting throughout the entire sentence.excerpt_keywords: block, text, plain, syntax, unhighlighted
+filename: code.md
+
+Another possibility is to set block code without specific highlighting:excerpt_keywords: Maven,spring-javaformat,code-formatting,javacodefix,automated-code-review
+filename: code.md
+category: code_block
+lang: 
+
+./mvnw spring-javaformat:apply
